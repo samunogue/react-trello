@@ -2,11 +2,51 @@
 @import '../root.css';
 
 .card{
-    height: fit-content;
-    width: 25vw;
-    background-color: var(--cor_card);
-    border-radius: 10px;
-    padding-bottom: 2vh;
-    margin-bottom: 10vh;
-    color: var(--cor_fonte);
+  height: fit-content;
+  width: 25vw;
+  background-color: var(--cor_card);
+  border-radius: 10px;
+  padding-bottom: 2vh;
+  margin-bottom: 10vh;
+  color: var(--cor_fonte);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  justify-content: flex-start;
+  padding:2vh 1vw;
+}
+.conteudo_card{
+  display: flex;
+  flex-direction: column;
+  gap:2vh;
+
+}
+.box_titulo{
+  width:100%;
+  height: fit-content;
+  padding:1vh 0.5vw;
+  background-color: white;
+  border-radius:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.tarefa{
+  width: 23vw;
+  height: fit-content;
+  padding: 1vh 1.5vw;
+  background-color: white;
+  font-family: 'Akshar', sans-serif;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.botao_excluir_tarefa, .botao_excluir_card{
+  width: fit-content;
+  height: fit-content;
+  padding: 1vh 0.7vw;
+  border-radius: 50%;
+  background-color:#c65cff;
 }
