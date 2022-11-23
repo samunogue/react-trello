@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600&display=swap');
+@import '../root.css';
+
+.card{
+    height: fit-content;
+    width: 25vw;
+    background-color: var(--cor_card);
+    border-radius: 10px;
+    padding-bottom: 2vh;
+    margin-bottom: 10vh;
+    color: var(--cor_fonte);
+}

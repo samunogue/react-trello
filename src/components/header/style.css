@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600&display=swap');
+@import '../root.css';
+
+header{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--cor_cabecalho);
+    font-family: 'Akshar', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor_fonte);
+}

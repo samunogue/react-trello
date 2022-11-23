@@ -1,0 +1,19 @@
+:root{
+    --cor_card: #ECC5C5;
+    --cor_cabecalho: rgb(203, 172, 222);
+    --cor_fonte: black;
+    --espacamento_card: 1vw;
+    --espacamento_tarefa: 0vh;
+    --cor_background: rgb(255,239,251);
+    --cor_background_botao: rgb(203, 207, 248);
+    --cor_cabeca_card: rgb(255, 255, 255);
+    --cor_fonte_input: black;
+    --cor_background_modal:rgb(213, 172, 240);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
